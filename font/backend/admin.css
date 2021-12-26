@@ -1,0 +1,146 @@
+.container {
+    display: inline-block;
+}
+.header {
+    display: inline;
+}
+.content-div {
+    margin-top: 5px;
+    display: flex;
+}
+.left-div {
+    width: 30%;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: darkslateblue;
+}
+.left-div .row {
+    margin-top: 10px;
+    color: cornflowerblue;
+    background-color: cyan;
+    border-radius: 10px;
+}
+.menuIcon {
+    height: 25px;
+    display: inline;
+}
+.menuIcon img {
+    width: 100px;
+    height: 100px;
+}
+
+.menuIcon a {
+    text-decoration: none;
+    color: black;
+}
+.menuIcon a:hover {
+    color: rgb(40, 43, 241);
+    cursor: pointer;
+}
+.search-container {
+    display: block;
+    margin: 5px;
+}
+.content-container {
+    display: block;
+    width: 100%;
+    border: solid black 0.5px;
+    border-radius: 10px;
+    padding: 3px;
+    padding-bottom: 5px;
+}
+.content-container div.title {
+    padding: 0px 3px 3px 3px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: darkturquoise;
+    align-items: center;
+}
+.slider {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+.row {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.row label {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+.err {
+    display: none;
+}
+select {
+    margin-top: 3px;
+}
+table {
+    padding: 0%;
+    border: 1px solid black;
+    margin: 20px;
+    border-collapse: collapse;
+    empty-cells: hide;
+}
+tr {
+    max-height: 40px;
+}
+th {
+    height: 40px;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    padding: 5px;
+}
+tr:hover{
+    background-color:#ddd;
+    cursor:pointer;
+}
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+td button {
+    margin: 3px;
+    text-align: center;
+}
+i {
+    margin: 2px;
+}
+
+.logo {
+    max-width: 30%;
+    margin-right: 2px;
+}
+.banner {
+    max-width: 70%;
+}
+
+.table {
+    width: 100%;
+    overflow: hidden;
+}
+.table:hover {
+    overflow: auto;
+}
+.table::-webkit-scrollbar {
+    width: 10px;
+}
+.table::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+}
+.main-div {
+    display: flex;
+    flex-direction: column;
+}
+.main-div button:only-child {
+    margin: 5px;
+    height: 30px;
+    width: 200px;
+}
+.add {
+    margin: 10px;
+}

@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    background: url(./img/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.slider {
+    width: 70%;
+    overflow: hidden;
+}
+
+.aspect-ratio-169 {
+    display: block;
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.aspect-ratio-169 img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+}
+
+.dot-container {
+    position: absolute;
+    height: 30px;
+    width: 50%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    border-radius: 50%;
+    background-color: rgb(173, 173, 173);
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: black;
+}
+
+.form {
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    padding: 10px 100px;
+    margin: 45px 100px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+
+.form h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+.form input {
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(196, 196, 196);
+}
+
+.form input:focus{
+    border-color: rgb(90, 89, 89);
+}
+
+.form span{
+    margin-bottom: 15px;
+}
+
+.form button{
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: rgb(168, 168, 248);
+}
+
+.form button:hover{
+    background-color: rgb(105, 105, 240);
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+

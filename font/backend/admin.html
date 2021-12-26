@@ -1,0 +1,55 @@
+<DOCTYPE.html>
+    <html lang="en">
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="./admin.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X UA Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quản lí thông tin</title>
+
+    </head>
+
+    <body>
+    <div class="header">
+        <img src="./logo.jpg" alt="logo_img" class="logo">
+        <img src="./banner.jpg" alt="banner_img" class="banner">
+    </div>
+    
+            <div class="container">
+            <div class="left-container">
+                <div class="">Tra cứu thông tin</div>
+                <div class="">Quản lí địa phương</div>
+                <div class="">Quản lí dân số</div>
+                <div class="">Cấp quyền</div>
+            </div>
+            <div id="content" class="content">
+                <input id="search-input" type="text" placeholder="">
+                <button id="search-button">Tìm kiếm</button>
+                <div class="row">
+                <label>Chọn tỉnh</label>
+                <select name='province'>
+                <option value="">Tỉnh/Thành phố</option>
+                <option value="" class="province-select">Hà Nội</option>
+                <option value="" class="province-select">Nam Định</option>
+                <option value="" class="province-select">Hải phòng</option>
+            </select>
+            <span class="err">*</span>
+            </div>
+            <div class="row">
+                <label>Chọn quận/huyện</label>
+                <select name='province'>
+                <option value="">Quận/Huyện</option>
+                <option value="" class="province-select">Hà Nội</option>
+                <option value="" class="province-select">Nam Định</option>
+                <option value="" class="province-select">Hải phòng</option>
+            </select>
+            <span class="err">*</span>
+            </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="admin.js"></script>
+    </body>
+
+    </html>
